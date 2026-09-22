@@ -44,5 +44,5 @@ Even R-Y
 Odd B-y
 
 Example:
-python encoder.py woof.jpg meow.wav
+python encoder.py woof.jpg meow.wav 
 python decoder.py hi.wav hi.png
