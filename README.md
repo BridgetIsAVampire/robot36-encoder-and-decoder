@@ -113,7 +113,3 @@ python decoder.py meow.wav output.png
 ```
 
 The resulting image should be `320 × 240` and use the Robot 36 SSTV format.
-
-## License
-
-Add your preferred license here.
