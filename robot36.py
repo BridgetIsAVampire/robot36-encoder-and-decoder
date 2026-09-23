@@ -13,7 +13,7 @@ def header(vis=8):
     for f,ms in [(1900,300),(1200,10),(1900,300),(1200,30)]:
         x,ph=tone(f,ms,ph); p.append(x)
     parity=0
-    for i in range(7): Vis stuff
+    for i in range(7): #Vis stuff
         bit=(vis>>i)&1
         parity ^= bit
         x,ph=tone(1100 if bit else 1300,30,ph); p.append(x)
