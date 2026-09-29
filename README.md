@@ -1,12 +1,12 @@
 # Robot 36 Encoder / Decoder
 
-A simple Python encoder and decoder for **Robot 36 SSTV**.
+A simple Python encoder and decoder for Robot 36 SSTV.
 
-The generated WAV files should work with **QSSTV**. If QSSTV reports an invalid WAV header, try rewriting the file with **SoX**.
+The generated WAV files should work with QSSTV. If QSSTV reports an invalid WAV header, try rewriting the file with **SoX**.
 
 ## Installation
 
-Install the required Python dependencies:
+Install the required Python dependencies(numpy, scipy, pillow):
 
 ```bash
 python -m pip install -r requirements.txt
